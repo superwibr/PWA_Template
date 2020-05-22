@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+<!--I: Title to be displayed on browser tab and home screen-->
+</title>
+<!--E: style formatting. You can change "background-color"s value if you want.-->
+<style>
+body {
+  background-color: #000000;
+}
+body,html{
+  overflow:hidden
+}
+</style>
+<!--E: formatting for apple mobile support VVV-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+<link rel="apple-touch-icon-precomposed" href="data:image/png;base64,">
+<!--I: encode a square image in Base64 and paste it here            ^^^-->
+</head>
+
+<body>
+<!--E: where the PWA magic happens-->
+<iframe id="ViostreamIframe"
+  width="100%" height="100%"
+  src="https://www.srgrafo.com/comic/latest"
+  frameborder="0" allowfullscreen=""
+  style="position:absolute; top:0; left: 0">
+</iframe>
+<!--I: Insert the url for your PWA, preferably HTTPS.-->
+</body>
+
+</html>

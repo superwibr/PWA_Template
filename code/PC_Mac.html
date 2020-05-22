@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+<!--I: Put the display name for the browser tab here-->
+</title>
+
+<!--E: style formatting. You can change "background-color"s value if you want.-->
+<style>
+body {
+  background-color: #000000;
+}
+body,html{
+  overflow:hidden
+}
+</style>
+
+<!--E: formatting for apple mobile support VVV-->
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
+<link rel="apple-touch-icon-precomposed" href="data:image/png;base64,">
+<!--I: encode a square image in Base64 and paste it here            ^^^-->
+
+</head>
+
+<body>
+
+<!--E: where the PWA magic happens-->
+<div id="Container"
+    style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+
+  <iframe id="ViostreamIframe"
+    width="100%" height="100%"
+    src="insert-url-here"
+    frameborder="0" allowfullscreen=""
+    style="position:absolute; top:0; left: 0">
+  </iframe>
+</div>
+<!--I: Insert the url for your PWA, preferably HTTPS.-->
+
+</body>
+
+</html>
